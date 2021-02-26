@@ -5,6 +5,14 @@
 
 <img align="top" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
 
+## NOTICE:
+
+__This fork of the Marlin code is currently being updated and brought back to life. This is being done with consideration and constraints different than what is described below. The new, updated RTOS version of Marlin is being done for 32-bit boards. But effort is being expended to make it still compile and load on the 8-bit AVR boards (without an RTOS support layer). In other words, the 8-bit AVR boards will not benefit from having an RTOS under Marlin but they will be able to use the same code base. We won't have to fork the code base and maintain two different branches of the code.__
+
+__With that said, the current code that is being worked on is being done so it can be aplied to an arbitrary snapshot of the Marlin v.2.0.x code. This is an experimental branch of the Marlin code but every attempt is being made to not lose any functionality. With that said, we don't want the extra burden of maintaining two branches for an extended period of time like what we went through on the transition from Marlin v1.x to Marlin v2.0. Instead, the work being done here will periodically be updated using a copy of the current Marlin BugFix v2.0.x code base to keep both branches synchronized.__
+
+__Current expectations are that the updated README.md file and code for the branch will be available mid June.__
+
 Additional documentation can be found at the [Marlin Home Page](http://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
